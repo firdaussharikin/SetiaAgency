@@ -1,0 +1,153 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "MADE TOMMY";
+}
+
+nav{
+  background-color: white;
+  height: 80px;
+  width: 100%;
+}
+
+label.logo{
+  color: white;
+  font-size: 36px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+nav ul{
+  float: right;
+  margin-right: 10px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a{
+  color: black;
+  font-size: 17px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding: 7px 13px;
+  border-radius: 10x;
+}
+
+a.active,a:hover{
+  background: #f1f1f1;
+  transition: .5s;
+}
+
+.background1{
+  padding-right: 60px;
+  padding-left: 60px;
+  /* margin-top: -40px; */
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.enquiry{
+  background-color: blue;
+  margin: 0 70px;
+}
+.seksyen2{
+  padding: 5% 5% 0% 5%;
+}
+h1{
+  font-family: "roboto";
+  font-weight: bolder;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.tour1{
+  margin: 60px;
+  margin-top: 10px;
+}
+
+.text1{
+  margin-top: 60px;
+  padding-top: 20px;
+  padding-left: 60px;
+}
+
+/* .tour2{
+  padding-right: 10px;
+} */
+
+.text2{
+  margin-top: 60px;
+  padding-top: 20px;
+  padding-left: 60px;
+}
+
+a{
+  font-size: 17px;
+  font-family: "roboto";
+  font-weight: thin;
+}
+
+.tour3{
+  margin: 60px;
+  margin-top: 10px;
+}
+
+.text3{
+  margin: 90px;
+  padding-top: 19px;
+}
+
+.seksyen3{
+  padding: 5% 0% 5% 0%;
+}
+
+.responsive2{
+  width: 50px;
+  max-width: 70px;
+  height: auto;
+}
+
+.imgsize{
+  width: 270px;
+  height: auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* .clearfix{
+  padding: 60px;
+} */
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.seksyen4{
+  background-color: rgb(112, 210, 240);
+  padding: 5%;
+  text-align: center;
+  color: white;
+}
